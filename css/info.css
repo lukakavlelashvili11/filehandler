@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:5;
+}
+.inf{
+    margin:0px auto;
+    width:90%;
+    height:auto;
+    border:1px none black;
+    
+}
+#phot{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+
+}
+#pat{
+    display:none;
+}
+#files{
+    width:300px;
+    display:none; 
+}
+#pat{
+    margin-left:-20px;
+    
+}
+#file{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+@media screen and (max-width: 444px) {
+    #phot{
+        display:none;
+    }
+    #pat{
+        display:block;
+    }
+    #files{
+        display:block;
+    }
+    #file{
+        display:none;
+    }
+  }
+  #pr{
+      width:100px;
+      height:30px;
+      background:rgb(185, 170, 170);
+      cursor: pointer;
+
+  }
+  
