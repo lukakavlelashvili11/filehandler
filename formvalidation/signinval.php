@@ -17,7 +17,6 @@ class userval{
         $this->validemail();
         $this->validpassword();
         return $this->error;
-
     }
     private function validemail(){
         $val=trim($this->data['semail']);
@@ -48,13 +47,9 @@ class userval{
                     $this->errorval('password',"password does not match!");
                 }
             }
-
         }
     }
     private function errorval($key,$val){
         $this->error[$key]=$val;
-
     }
 }
-
-?>

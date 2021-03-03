@@ -23,8 +23,8 @@ session_start();
             <div class='echodiv'>
             <div id='ses'onclick='ses()'><p> $ses </p></div>
             <div id='subec'>
-            <div><a href='getfiles.php'>my files</a></div>
-            <div><a href='sesdes.php'>sign out</a></div>
+            <div onclick='getfiles()'><a href='getfiles.php'>my files</a></div>
+            <div onclick='sesdes()'><a href='sesdes.php'>sign out</a></div>
             </div>
             </div>"; 
             }?>
@@ -36,8 +36,8 @@ session_start();
                    <div id="echo"style="display:flex;justify-content:flex-start;">
                    <input id="tx" style="height:100%; width:50%;text-align:center;font-size:17px;" type="text"name="tx"placeholder="zip name(optional)"/>
                    <div id="as"style="height:100%;width:50%;justify-content:flex-end;border:1px solid rgba(104, 95, 96,0.3);">
-                <lable>&nbsp;&nbsp;&nbsp;sort by type(df)<input type="radio"name="rad"value="ty"></lable><br>
-                <lable>&nbsp;&nbsp;&nbsp;sort by extension<input type="radio"name="rad"value="ex"></lable>
+                <lable>sort by type(df)<input type="radio"name="rad"value="ty"></lable><br>
+                <lable>sort by extension<input type="radio"name="rad"value="ex"></lable>
                 </div>
                 </div> 
                 <div id="sax"><p style="color:rgb(182, 170, 170);display:flex;">file name</p></div>

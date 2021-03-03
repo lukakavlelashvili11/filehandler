@@ -13,6 +13,7 @@ function nam(){
        document.getElementById("sax").appendChild(marq);
     })
 }
+
 var a=3;
 function ses(){
     a++;
